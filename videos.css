@@ -1,0 +1,415 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap');
+@font-face {
+    font-family: PepsiOwners;
+    src: url(fonts/pepsi_owners/PEPSI_pl.ttf);
+  }
+  @font-face {
+    font-family: pep;
+    src: url(fonts/PepsiOwners2-Regular220909.ttf);
+  }
+  @font-face {
+    font-family: pep-e;
+    src: url(fonts/PepsiOwners2-Extended220909.ttf);
+  }
+.tk-owners-text { font-family: "owners-text",sans-serif; }
+
+.video1 {
+    width: 100%;
+    margin: 0;
+}
+body{
+    width: 100%;
+    margin: 0;
+}
+.img-pep-logo{
+    width: 60px;
+    margin-left: 40px;
+    margin-right: 10px;
+}
+.heder-titels li{
+    list-style-type: none;
+    font-family: Poppins;
+    font-size: 0.9vw;
+    font-weight: bold;
+    color: #fff;
+}
+.heder-titels li button{
+    text-transform: uppercase;
+    list-style-type: none;
+    font-family: Poppins;
+    font-size: 0.9vw;
+    font-weight: bold;
+    color: #fff;
+    border-width:2.2px ;
+} 
+
+.a1{
+    border-color: #0025ff;
+    border-style: solid;
+    border-left:0 ;
+    border-top:0 ;
+    border-width: 1px;
+}
+.grid-section{
+    display: grid;
+    text-align: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    overflow: hidden;
+    background-color: #000;
+    
+    
+    
+    
+  
+}
+.grid-section div{
+    background-color: #000000;
+    color: #ffffff;
+    
+
+}
+.heder-titels{
+  display: flex;
+  width: 1px;
+  align-items: center;
+  width:auto;
+  list-style: none;
+  padding: 0px 0px 0px 1px;
+}
+.l1{
+    display: flex;
+    flex: .3;
+}
+.l2{
+    display: flex;
+    flex: .4;
+    cursor: pointer;
+    margin-left: 30px;
+}
+.l3{
+    display: flex;
+    flex: .5;
+}
+.l4 button{
+    background-color: transparent;
+    border-radius: 20px;
+    
+    text-align: center;
+    height: 2vw;
+    border-width:0.1px;
+    border-color:white;
+    border: solid;
+    width: 13.5vw;
+    border-bottom:solid white;
+} 
+.l4{
+    display: flex;
+    flex: 2;
+    justify-content:end;
+
+    margin-right: 42px;
+    
+    
+}
+.hedder1{
+    top: 0;
+    background-color: #0025ff;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+}
+.img-text button {
+    width: 30vw;
+    font-size: 2.2vw;
+    background-color: #fff;
+    color: #000;
+    font-family:pep;
+    
+    border: none;
+    font-weight: 400;
+    padding: 0.9vw;
+    cursor: pointer;
+    text-decoration: none;
+    height: 5vw;
+}
+  .img-text button:hover {
+    color: white;
+    background-color: blue;
+}
+.pep{ 
+    padding-top:20px ;
+   display: flex;
+   flex-direction: row;
+   flex: 1;
+   padding-bottom: 20px;
+   justify-content: center;
+   
+  
+}
+
+.image-first {
+    margin-top: -5px;
+    height: 72.667vw;
+    background-image: url(https://www.pepsi.com/en-us/refresh082123/images/wild-cherry/3296846-wild-cherry-2024-digital-rd-3-1920-x-1080@2x.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width: 100%;
+}
+.inside-imeges{
+    display: flex;
+    border: none;
+    justify-content: center;
+    align-items: start;
+    overflow: hidden;
+    height: 12vw;
+}
+.inside-imeges img{
+    height: 19vw;
+   transition: 0.15s;
+}
+.inside-imeges:hover img{
+    height: 20vw;
+    
+}
+.sec3 {
+    background-image: url(images/1920-x-1080-wc-tvc-bg-dsk3x.png);
+    height: 62.667vw;
+    background-size: cover;
+    box-shadow: 0px 100px 100px black inset;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    justify-content: flex-start;
+}
+
+
+.img-text a {
+    text-decoration: none;
+    font-size: 2vw;
+    background-color: #fff;
+    color: #000;
+    font-family: Poppins, sans-serif;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.shop-now {
+    display: flex;
+    align-items: center;
+    margin-top: 5vw;
+    font-size: 3.5vw;
+    background-color: #fff;
+    color: #000;
+    font-family: Poppins, sans-serif;
+    border: none;
+    font-weight: bold;
+    margin-bottom: 3.2vw;
+    cursor: pointer;
+    padding: 15px 70px;
+    text-decoration: none;
+}
+.l2 .fa-solid{
+    font-size: 14px;
+    padding-top: 2.5px;
+    padding-left: 4px;
+    
+}
+
+.shop-now:hover {
+    color: white;
+    background-color: blue;
+}
+.inside-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vw;
+    margin-bottom: -50px;
+}
+
+.inside-image:hover .imag {
+    
+    box-shadow: 0px 0px 60px 10px blue;
+}
+
+.imag {
+    width: 46.5vw;
+    border-radius: 33px;
+    transition: 0.26s;
+}
+
+.img3-all {
+    display: flex;
+    gap: 1.3vw;
+}
+
+.getpep {
+    display: block;
+    object-position: center;
+    width: 78.533vw;
+}
+
+.img-tex {
+    width: 400px;
+}
+
+.banner{
+    height: 100%;
+    background-color: #fcfcfc;
+    width: 100%;
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin-top: 50PX;
+    display: none;
+    
+}
+.bg{
+    position: absolute;
+    top: 0;
+    background-color: #000000;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0;
+}
+.l2:hover ~.bg{
+    opacity: 1;
+}
+.last-sec{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.5%;
+
+    height: 192px;
+    background-color: #0025ff;
+    
+}
+.texts h3{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight:1000;
+}
+.texts{
+    display: flex;
+    gap: 80px;
+    justify-content: space-between;
+}
+.logo-img img{
+    width: 101px;
+}
+.ICONS ul{
+    padding: 0;
+    gap: 22px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fa-brands{
+    font-size: 27px;
+    color: white;
+    
+   
+}
+.ending a{
+    font-weight: bold;
+    font-size: 20px;
+}
+.ending{
+    background-color: #0025ff;
+    text-align: end;
+    text-decoration: underline;
+    color: white;
+    padding: 0px 20px 10px ;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.thu{
+   
+   transition: 0.15s;
+  
+}
+.thu:hover{
+    transform: rotate(10deg) scale(1.16) ;
+    
+
+    
+    
+}
+
+.thu{
+    transform: scale(1.01);
+    width: 100%;
+    height: 100%;
+    
+}
+.imag-animation{
+    width: 227px;
+    overflow: hidden;
+}
+.title-0{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgb(22, 54, 255);
+    font-family: pep-e;
+    font-size: 42px;
+    padding: 1rem 0;
+
+}
+.images-0{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+.all-icons{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    margin-top: -4px;
+}
+.images{
+    display: flex;
+    
+    height: 228px;
+    overflow: hidden;
+    border: solid #1636FF;
+    margin-bottom:10px ;
+}
+.at-icon{
+    height: 31.5px;
+    text-align: center;
+}
+.imag-animation{
+     position: relative;
+    
+}
+.imag-animation .fa-brands{
+    color: #ffffff;
+   bottom: 18px;
+    left: 20px;
+   position: absolute;
+    
+   font-weight: 100;
+   
+}
+.at-icon2{
+    color: #ffffff;
+   bottom: 15px;
+    left: 15px;
+   position: absolute;
+   width: 33px;
+   
+}
